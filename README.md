@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/your-repo/stretch-reminder/main/assets/icon.png" width="120" alt="Stretch Reminder Logo" />
+  <img src="https://github.com/Gauravxo/Stretch_Reminder/blob/main/a-girl-is-stretching-vector.jpg" width="120" alt="Stretch Reminder Logo" />
 </p>
 
 <h1 align="center">🧘 Stretch Reminder</h1>
@@ -46,7 +46,7 @@ It respects your work schedule, can be snoozed, and never interrupts when you're
 
 | Tray Icon & Menu | Popup (Fullscreen) | Settings Window |
 |:---:|:---:|:---:|
-| ![Tray](https://raw.githubusercontent.com/your-repo/stretch-reminder/main/screenshots/tray.png) | ![Popup](https://raw.githubusercontent.com/your-repo/stretch-reminder/main/screenshots/popup.png) | ![Settings](https://raw.githubusercontent.com/your-repo/stretch-reminder/main/screenshots/settings.png) |
+| ![Tray](https://github.com/Gauravxo/Stretch_Reminder/blob/main/ss9.png) | ![Popup](https://github.com/Gauravxo/Stretch_Reminder/blob/main/ss5.png) | ![Settings](https://github.com/Gauravxo/Stretch_Reminder/blob/main/ss4.png) |
 
 *(Replace with actual screenshots)*
 
