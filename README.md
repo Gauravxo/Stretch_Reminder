@@ -48,7 +48,7 @@ It respects your work schedule, can be snoozed, and never interrupts when you're
 |:---:|:---:|:---:|
 | ![Tray](https://github.com/Gauravxo/Stretch_Reminder/blob/main/ss9.png) | ![Popup](https://github.com/Gauravxo/Stretch_Reminder/blob/main/ss5.png) | ![Settings](https://github.com/Gauravxo/Stretch_Reminder/blob/main/ss4.png) |
 
-*(Replace with actual screenshots)*
+
 
 ---
 
@@ -64,5 +64,5 @@ It respects your work schedule, can be snoozed, and never interrupts when you're
 ### 2. Download
 Clone the repository or download the source files:
 ```bash
-git clone https://github.com/your-repo/stretch-reminder.git
+https://github.com/Gauravxo/Stretch_Reminder
 cd stretch-reminder
