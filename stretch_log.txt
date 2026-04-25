@@ -1,0 +1,434 @@
+2026-04-23 16:49:33  ==================================================
+2026-04-23 16:49:33  stretch_reminder.pyw starting
+2026-04-23 16:49:33  Timer started - interval=40 min
+2026-04-23 16:49:33  Tray started
+2026-04-23 16:49:33  Mainloop starting
+2026-04-23 16:49:33  Importing AvifImagePlugin
+2026-04-23 16:49:33  Importing BlpImagePlugin
+2026-04-23 16:49:33  Importing BmpImagePlugin
+2026-04-23 16:49:33  Importing BufrStubImagePlugin
+2026-04-23 16:49:33  Importing CurImagePlugin
+2026-04-23 16:49:33  Importing DcxImagePlugin
+2026-04-23 16:49:33  Importing DdsImagePlugin
+2026-04-23 16:49:33  Importing EpsImagePlugin
+2026-04-23 16:49:33  Importing FitsImagePlugin
+2026-04-23 16:49:33  Importing FliImagePlugin
+2026-04-23 16:49:33  Importing FpxImagePlugin
+2026-04-23 16:49:33  Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-04-23 16:49:33  Importing FtexImagePlugin
+2026-04-23 16:49:33  Importing GbrImagePlugin
+2026-04-23 16:49:33  Importing GifImagePlugin
+2026-04-23 16:49:33  Importing GribStubImagePlugin
+2026-04-23 16:49:33  Importing Hdf5StubImagePlugin
+2026-04-23 16:49:33  Importing IcnsImagePlugin
+2026-04-23 16:49:33  Importing IcoImagePlugin
+2026-04-23 16:49:33  Importing ImImagePlugin
+2026-04-23 16:49:33  Importing ImtImagePlugin
+2026-04-23 16:49:33  Importing IptcImagePlugin
+2026-04-23 16:49:33  Importing JpegImagePlugin
+2026-04-23 16:49:33  Importing Jpeg2KImagePlugin
+2026-04-23 16:49:33  Importing McIdasImagePlugin
+2026-04-23 16:49:33  Importing MicImagePlugin
+2026-04-23 16:49:33  Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-04-23 16:49:33  Importing MpegImagePlugin
+2026-04-23 16:49:33  Importing MpoImagePlugin
+2026-04-23 16:49:33  Importing MspImagePlugin
+2026-04-23 16:49:33  Importing PalmImagePlugin
+2026-04-23 16:49:33  Importing PcdImagePlugin
+2026-04-23 16:49:33  Importing PcxImagePlugin
+2026-04-23 16:49:33  Importing PdfImagePlugin
+2026-04-23 16:49:33  Importing PixarImagePlugin
+2026-04-23 16:49:33  Importing PngImagePlugin
+2026-04-23 16:49:33  Importing PpmImagePlugin
+2026-04-23 16:49:33  Importing PsdImagePlugin
+2026-04-23 16:49:33  Importing QoiImagePlugin
+2026-04-23 16:49:33  Importing SgiImagePlugin
+2026-04-23 16:49:33  Importing SpiderImagePlugin
+2026-04-23 16:49:33  Importing SunImagePlugin
+2026-04-23 16:49:33  Importing TgaImagePlugin
+2026-04-23 16:49:33  Importing TiffImagePlugin
+2026-04-23 16:49:33  Importing WebPImagePlugin
+2026-04-23 16:49:33  Importing WmfImagePlugin
+2026-04-23 16:49:33  Importing XbmImagePlugin
+2026-04-23 16:49:33  Importing XpmImagePlugin
+2026-04-23 16:49:33  Importing XVThumbImagePlugin
+2026-04-23 16:57:28  Queue message: SHOW
+2026-04-23 16:57:28  Launching popup process...
+2026-04-23 16:57:39  Popup closed with code 0
+2026-04-23 16:57:39  Timer reset to 40 min
+2026-04-23 16:57:39  Done - timer reset to full interval
+2026-04-23 16:57:46  Queue message: SETTINGS
+2026-04-23 16:58:32  Config saved
+2026-04-23 16:58:34  Timer reset to 40 min
+2026-04-23 16:59:45  ==================================================
+2026-04-23 16:59:45  stretch_reminder.pyw starting
+2026-04-23 16:59:45  Timer started - interval=40 min
+2026-04-23 16:59:45  Tray started
+2026-04-23 16:59:45  Mainloop starting
+2026-04-23 16:59:46  Importing AvifImagePlugin
+2026-04-23 16:59:46  Importing BlpImagePlugin
+2026-04-23 16:59:46  Importing BmpImagePlugin
+2026-04-23 16:59:46  Importing BufrStubImagePlugin
+2026-04-23 16:59:46  Importing CurImagePlugin
+2026-04-23 16:59:46  Importing DcxImagePlugin
+2026-04-23 16:59:46  Importing DdsImagePlugin
+2026-04-23 16:59:46  Importing EpsImagePlugin
+2026-04-23 16:59:46  Importing FitsImagePlugin
+2026-04-23 16:59:46  Importing FliImagePlugin
+2026-04-23 16:59:46  Importing FpxImagePlugin
+2026-04-23 16:59:46  Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-04-23 16:59:46  Importing FtexImagePlugin
+2026-04-23 16:59:46  Importing GbrImagePlugin
+2026-04-23 16:59:46  Importing GifImagePlugin
+2026-04-23 16:59:46  Importing GribStubImagePlugin
+2026-04-23 16:59:46  Importing Hdf5StubImagePlugin
+2026-04-23 16:59:46  Importing IcnsImagePlugin
+2026-04-23 16:59:46  Importing IcoImagePlugin
+2026-04-23 16:59:46  Importing ImImagePlugin
+2026-04-23 16:59:46  Importing ImtImagePlugin
+2026-04-23 16:59:46  Importing IptcImagePlugin
+2026-04-23 16:59:46  Importing JpegImagePlugin
+2026-04-23 16:59:46  Importing Jpeg2KImagePlugin
+2026-04-23 16:59:46  Importing McIdasImagePlugin
+2026-04-23 16:59:46  Importing MicImagePlugin
+2026-04-23 16:59:46  Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-04-23 16:59:46  Importing MpegImagePlugin
+2026-04-23 16:59:46  Importing MpoImagePlugin
+2026-04-23 16:59:46  Importing MspImagePlugin
+2026-04-23 16:59:46  Importing PalmImagePlugin
+2026-04-23 16:59:46  Importing PcdImagePlugin
+2026-04-23 16:59:46  Importing PcxImagePlugin
+2026-04-23 16:59:46  Importing PdfImagePlugin
+2026-04-23 16:59:46  Importing PixarImagePlugin
+2026-04-23 16:59:46  Importing PngImagePlugin
+2026-04-23 16:59:46  Importing PpmImagePlugin
+2026-04-23 16:59:46  Importing PsdImagePlugin
+2026-04-23 16:59:46  Importing QoiImagePlugin
+2026-04-23 16:59:46  Importing SgiImagePlugin
+2026-04-23 16:59:46  Importing SpiderImagePlugin
+2026-04-23 16:59:46  Importing SunImagePlugin
+2026-04-23 16:59:46  Importing TgaImagePlugin
+2026-04-23 16:59:46  Importing TiffImagePlugin
+2026-04-23 16:59:46  Importing WebPImagePlugin
+2026-04-23 16:59:46  Importing WmfImagePlugin
+2026-04-23 16:59:46  Importing XbmImagePlugin
+2026-04-23 16:59:46  Importing XpmImagePlugin
+2026-04-23 16:59:46  Importing XVThumbImagePlugin
+2026-04-23 16:59:52  Queue message: QUIT
+2026-04-23 16:59:52  Mainloop ended
+2026-04-23 17:04:02  Queue message: SHOW
+2026-04-23 17:04:02  Launching popup process...
+2026-04-23 17:04:04  Popup closed with code 0
+2026-04-23 17:04:04  Timer reset to 40 min
+2026-04-23 17:04:04  Done - timer reset to full interval
+2026-04-23 17:18:00  Queue message: SHOW
+2026-04-23 17:18:00  Launching popup process...
+2026-04-23 17:18:02  Popup closed with code 0
+2026-04-23 17:18:02  Timer reset to 40 min
+2026-04-23 17:18:02  Done - timer reset to full interval
+2026-04-23 17:18:12  Queue message: SETTINGS
+2026-04-23 17:18:19  Config saved
+2026-04-23 17:18:21  Timer reset to 40 min
+2026-04-23 17:18:26  Queue message: SHOW
+2026-04-23 17:18:26  Launching popup process...
+2026-04-23 17:19:09  Popup closed with code 0
+2026-04-23 17:19:09  Timer reset to 40 min
+2026-04-23 17:19:09  Done - timer reset to full interval
+2026-04-24 10:44:40  ==================================================
+2026-04-24 10:44:40  stretch_reminder.pyw starting
+2026-04-24 10:44:40  Timer started - interval=40 min
+2026-04-24 10:44:40  Tray started
+2026-04-24 10:44:40  Mainloop starting
+2026-04-24 10:44:40  Importing AvifImagePlugin
+2026-04-24 10:44:40  Importing BlpImagePlugin
+2026-04-24 10:44:40  Importing BmpImagePlugin
+2026-04-24 10:44:40  Importing BufrStubImagePlugin
+2026-04-24 10:44:40  Importing CurImagePlugin
+2026-04-24 10:44:40  Importing DcxImagePlugin
+2026-04-24 10:44:40  Importing DdsImagePlugin
+2026-04-24 10:44:40  Importing EpsImagePlugin
+2026-04-24 10:44:40  Importing FitsImagePlugin
+2026-04-24 10:44:40  Importing FliImagePlugin
+2026-04-24 10:44:40  Importing FpxImagePlugin
+2026-04-24 10:44:40  Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-04-24 10:44:40  Importing FtexImagePlugin
+2026-04-24 10:44:40  Importing GbrImagePlugin
+2026-04-24 10:44:40  Importing GifImagePlugin
+2026-04-24 10:44:40  Importing GribStubImagePlugin
+2026-04-24 10:44:40  Importing Hdf5StubImagePlugin
+2026-04-24 10:44:40  Importing IcnsImagePlugin
+2026-04-24 10:44:40  Importing IcoImagePlugin
+2026-04-24 10:44:40  Importing ImImagePlugin
+2026-04-24 10:44:40  Importing ImtImagePlugin
+2026-04-24 10:44:40  Importing IptcImagePlugin
+2026-04-24 10:44:40  Importing JpegImagePlugin
+2026-04-24 10:44:40  Importing Jpeg2KImagePlugin
+2026-04-24 10:44:40  Importing McIdasImagePlugin
+2026-04-24 10:44:40  Importing MicImagePlugin
+2026-04-24 10:44:40  Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-04-24 10:44:40  Importing MpegImagePlugin
+2026-04-24 10:44:40  Importing MpoImagePlugin
+2026-04-24 10:44:40  Importing MspImagePlugin
+2026-04-24 10:44:40  Importing PalmImagePlugin
+2026-04-24 10:44:40  Importing PcdImagePlugin
+2026-04-24 10:44:40  Importing PcxImagePlugin
+2026-04-24 10:44:40  Importing PdfImagePlugin
+2026-04-24 10:44:40  Importing PixarImagePlugin
+2026-04-24 10:44:40  Importing PngImagePlugin
+2026-04-24 10:44:40  Importing PpmImagePlugin
+2026-04-24 10:44:40  Importing PsdImagePlugin
+2026-04-24 10:44:40  Importing QoiImagePlugin
+2026-04-24 10:44:40  Importing SgiImagePlugin
+2026-04-24 10:44:40  Importing SpiderImagePlugin
+2026-04-24 10:44:40  Importing SunImagePlugin
+2026-04-24 10:44:40  Importing TgaImagePlugin
+2026-04-24 10:44:40  Importing TiffImagePlugin
+2026-04-24 10:44:40  Importing WebPImagePlugin
+2026-04-24 10:44:40  Importing WmfImagePlugin
+2026-04-24 10:44:40  Importing XbmImagePlugin
+2026-04-24 10:44:40  Importing XpmImagePlugin
+2026-04-24 10:44:40  Importing XVThumbImagePlugin
+2026-04-24 10:45:22  Queue message: SHOW
+2026-04-24 10:45:22  Launching popup process...
+2026-04-24 10:45:47  Popup closed with code 0
+2026-04-24 10:45:47  Timer reset to 40 min
+2026-04-24 10:45:47  Done - timer reset to full interval
+2026-04-24 11:25:47  Timer fired - checking schedule...
+2026-04-24 11:25:47  Timer reset to 40 min
+2026-04-24 11:25:47  Schedule OK - calling fire_cb
+2026-04-24 11:25:48  Queue message: SHOW
+2026-04-24 11:25:48  Launching popup process...
+2026-04-24 11:25:57  Popup closed with code 0
+2026-04-24 11:25:57  Timer reset to 40 min
+2026-04-24 11:25:57  Done - timer reset to full interval
+2026-04-24 12:05:57  Timer fired - checking schedule...
+2026-04-24 12:05:57  Timer reset to 40 min
+2026-04-24 12:05:57  Schedule OK - calling fire_cb
+2026-04-24 12:05:58  Queue message: SHOW
+2026-04-24 12:05:58  Launching popup process...
+2026-04-24 12:06:05  Popup closed with code 0
+2026-04-24 12:06:05  Timer reset to 40 min
+2026-04-24 12:06:05  Done - timer reset to full interval
+2026-04-24 14:19:27  Timer fired - checking schedule...
+2026-04-24 14:19:27  Timer reset to 40 min
+2026-04-24 14:19:27  Skipped: in exclude range Lunch Walk
+2026-04-24 14:19:27  Skipped (outside work hours or excluded range)
+2026-04-24 14:59:28  Timer fired - checking schedule...
+2026-04-24 14:59:28  Timer reset to 40 min
+2026-04-24 14:59:28  Schedule OK - calling fire_cb
+2026-04-24 14:59:28  Queue message: SHOW
+2026-04-24 14:59:28  Launching popup process...
+2026-04-24 14:59:53  Popup closed with code 0
+2026-04-24 14:59:53  Timer reset to 40 min
+2026-04-24 14:59:53  Done - timer reset to full interval
+2026-04-24 15:39:54  Timer fired - checking schedule...
+2026-04-24 15:39:54  Timer reset to 40 min
+2026-04-24 15:39:54  Schedule OK - calling fire_cb
+2026-04-24 15:39:54  Queue message: SHOW
+2026-04-24 15:39:54  Launching popup process...
+2026-04-24 15:40:10  Popup closed with code 0
+2026-04-24 15:40:10  Timer reset to 40 min
+2026-04-24 15:40:10  Done - timer reset to full interval
+2026-04-24 16:20:12  Timer fired - checking schedule...
+2026-04-24 16:20:12  Timer reset to 40 min
+2026-04-24 16:20:12  Schedule OK - calling fire_cb
+2026-04-24 16:20:13  Queue message: SHOW
+2026-04-24 16:20:13  Launching popup process...
+2026-04-24 16:20:17  Popup closed with code 0
+2026-04-24 16:20:17  Timer reset to 40 min
+2026-04-24 16:20:17  Done - timer reset to full interval
+2026-04-24 16:39:26  Queue message: SHOW
+2026-04-24 16:39:26  Launching popup process...
+2026-04-24 16:39:49  Popup closed with code 0
+2026-04-24 16:39:49  Timer reset to 40 min
+2026-04-24 16:39:49  Done - timer reset to full interval
+2026-04-24 16:53:18  Queue message: SETTINGS
+2026-04-24 16:53:28  Queue message: QUIT
+2026-04-24 16:53:28  Mainloop ended
+2026-04-24 16:53:31  ==================================================
+2026-04-24 16:53:31  stretch_reminder.pyw starting
+2026-04-24 16:53:31  Timer started - interval=40 min
+2026-04-24 16:53:31  Tray started
+2026-04-24 16:53:31  Mainloop starting
+2026-04-24 16:53:31  Importing AvifImagePlugin
+2026-04-24 16:53:31  Importing BlpImagePlugin
+2026-04-24 16:53:31  Importing BmpImagePlugin
+2026-04-24 16:53:31  Importing BufrStubImagePlugin
+2026-04-24 16:53:31  Importing CurImagePlugin
+2026-04-24 16:53:31  Importing DcxImagePlugin
+2026-04-24 16:53:31  Importing DdsImagePlugin
+2026-04-24 16:53:31  Importing EpsImagePlugin
+2026-04-24 16:53:31  Importing FitsImagePlugin
+2026-04-24 16:53:31  Importing FliImagePlugin
+2026-04-24 16:53:31  Importing FpxImagePlugin
+2026-04-24 16:53:31  Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-04-24 16:53:31  Importing FtexImagePlugin
+2026-04-24 16:53:31  Importing GbrImagePlugin
+2026-04-24 16:53:31  Importing GifImagePlugin
+2026-04-24 16:53:31  Importing GribStubImagePlugin
+2026-04-24 16:53:31  Importing Hdf5StubImagePlugin
+2026-04-24 16:53:31  Importing IcnsImagePlugin
+2026-04-24 16:53:31  Importing IcoImagePlugin
+2026-04-24 16:53:31  Importing ImImagePlugin
+2026-04-24 16:53:31  Importing ImtImagePlugin
+2026-04-24 16:53:31  Importing IptcImagePlugin
+2026-04-24 16:53:31  Importing JpegImagePlugin
+2026-04-24 16:53:31  Importing Jpeg2KImagePlugin
+2026-04-24 16:53:31  Importing McIdasImagePlugin
+2026-04-24 16:53:31  Importing MicImagePlugin
+2026-04-24 16:53:31  Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-04-24 16:53:31  Importing MpegImagePlugin
+2026-04-24 16:53:31  Importing MpoImagePlugin
+2026-04-24 16:53:31  Importing MspImagePlugin
+2026-04-24 16:53:31  Importing PalmImagePlugin
+2026-04-24 16:53:31  Importing PcdImagePlugin
+2026-04-24 16:53:31  Importing PcxImagePlugin
+2026-04-24 16:53:31  Importing PdfImagePlugin
+2026-04-24 16:53:31  Importing PixarImagePlugin
+2026-04-24 16:53:31  Importing PngImagePlugin
+2026-04-24 16:53:31  Importing PpmImagePlugin
+2026-04-24 16:53:31  Importing PsdImagePlugin
+2026-04-24 16:53:31  Importing QoiImagePlugin
+2026-04-24 16:53:31  Importing SgiImagePlugin
+2026-04-24 16:53:31  Importing SpiderImagePlugin
+2026-04-24 16:53:31  Importing SunImagePlugin
+2026-04-24 16:53:31  Importing TgaImagePlugin
+2026-04-24 16:53:31  Importing TiffImagePlugin
+2026-04-24 16:53:31  Importing WebPImagePlugin
+2026-04-24 16:53:31  Importing WmfImagePlugin
+2026-04-24 16:53:31  Importing XbmImagePlugin
+2026-04-24 16:53:31  Importing XpmImagePlugin
+2026-04-24 16:53:31  Importing XVThumbImagePlugin
+2026-04-24 16:53:37  Queue message: SETTINGS
+2026-04-24 17:01:00  Queue message: SETTINGS
+2026-04-24 17:02:06  Queue message: SHOW
+2026-04-24 17:02:06  Launching popup process...
+2026-04-24 17:02:13  Popup closed with code 0
+2026-04-24 17:02:13  Timer reset to 40 min
+2026-04-24 17:02:13  Done - timer reset to full interval
+2026-04-24 17:02:18  Queue message: SHOW
+2026-04-24 17:02:18  Launching popup process...
+2026-04-24 17:02:22  Popup closed with code 0
+2026-04-24 17:02:22  Timer reset to 40 min
+2026-04-24 17:02:22  Done - timer reset to full interval
+2026-04-24 17:02:28  Queue message: SHOW
+2026-04-24 17:02:28  Launching popup process...
+2026-04-24 17:02:54  Popup closed with code 0
+2026-04-24 17:02:54  Timer reset to 40 min
+2026-04-24 17:02:54  Done - timer reset to full interval
+2026-04-24 20:19:48  ==================================================
+2026-04-24 20:19:48  stretch_reminder.pyw starting
+2026-04-24 20:19:48  Timer started - interval=40 min
+2026-04-24 20:19:49  Tray started
+2026-04-24 20:19:49  Mainloop starting
+2026-04-24 20:19:49  Importing AvifImagePlugin
+2026-04-24 20:19:49  Importing BlpImagePlugin
+2026-04-24 20:19:49  Importing BmpImagePlugin
+2026-04-24 20:19:49  Importing BufrStubImagePlugin
+2026-04-24 20:19:49  Importing CurImagePlugin
+2026-04-24 20:19:49  Importing DcxImagePlugin
+2026-04-24 20:19:49  Importing DdsImagePlugin
+2026-04-24 20:19:49  Importing EpsImagePlugin
+2026-04-24 20:19:49  Importing FitsImagePlugin
+2026-04-24 20:19:49  Importing FliImagePlugin
+2026-04-24 20:19:49  Importing FpxImagePlugin
+2026-04-24 20:19:49  Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-04-24 20:19:49  Importing FtexImagePlugin
+2026-04-24 20:19:49  Importing GbrImagePlugin
+2026-04-24 20:19:49  Importing GifImagePlugin
+2026-04-24 20:19:49  Importing GribStubImagePlugin
+2026-04-24 20:19:49  Importing Hdf5StubImagePlugin
+2026-04-24 20:19:49  Importing IcnsImagePlugin
+2026-04-24 20:19:49  Importing IcoImagePlugin
+2026-04-24 20:19:49  Importing ImImagePlugin
+2026-04-24 20:19:49  Importing ImtImagePlugin
+2026-04-24 20:19:49  Importing IptcImagePlugin
+2026-04-24 20:19:49  Importing JpegImagePlugin
+2026-04-24 20:19:49  Importing Jpeg2KImagePlugin
+2026-04-24 20:19:49  Importing McIdasImagePlugin
+2026-04-24 20:19:49  Importing MicImagePlugin
+2026-04-24 20:19:49  Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-04-24 20:19:49  Importing MpegImagePlugin
+2026-04-24 20:19:49  Importing MpoImagePlugin
+2026-04-24 20:19:49  Importing MspImagePlugin
+2026-04-24 20:19:49  Importing PalmImagePlugin
+2026-04-24 20:19:49  Importing PcdImagePlugin
+2026-04-24 20:19:49  Importing PcxImagePlugin
+2026-04-24 20:19:49  Importing PdfImagePlugin
+2026-04-24 20:19:49  Importing PixarImagePlugin
+2026-04-24 20:19:49  Importing PngImagePlugin
+2026-04-24 20:19:49  Importing PpmImagePlugin
+2026-04-24 20:19:49  Importing PsdImagePlugin
+2026-04-24 20:19:49  Importing QoiImagePlugin
+2026-04-24 20:19:49  Importing SgiImagePlugin
+2026-04-24 20:19:49  Importing SpiderImagePlugin
+2026-04-24 20:19:49  Importing SunImagePlugin
+2026-04-24 20:19:49  Importing TgaImagePlugin
+2026-04-24 20:19:49  Importing TiffImagePlugin
+2026-04-24 20:19:49  Importing WebPImagePlugin
+2026-04-24 20:19:49  Importing WmfImagePlugin
+2026-04-24 20:19:49  Importing XbmImagePlugin
+2026-04-24 20:19:49  Importing XpmImagePlugin
+2026-04-24 20:19:49  Importing XVThumbImagePlugin
+2026-04-24 20:57:31  ==================================================
+2026-04-24 20:57:31  stretch_reminder.pyw starting
+2026-04-24 20:57:31  Timer started - interval=40 min
+2026-04-24 20:57:31  Tray started
+2026-04-24 20:57:31  Mainloop starting
+2026-04-24 20:57:31  Importing AvifImagePlugin
+2026-04-24 20:57:31  Importing BlpImagePlugin
+2026-04-24 20:57:31  Importing BmpImagePlugin
+2026-04-24 20:57:31  Importing BufrStubImagePlugin
+2026-04-24 20:57:31  Importing CurImagePlugin
+2026-04-24 20:57:31  Importing DcxImagePlugin
+2026-04-24 20:57:31  Importing DdsImagePlugin
+2026-04-24 20:57:31  Importing EpsImagePlugin
+2026-04-24 20:57:31  Importing FitsImagePlugin
+2026-04-24 20:57:31  Importing FliImagePlugin
+2026-04-24 20:57:31  Importing FpxImagePlugin
+2026-04-24 20:57:31  Image: failed to import FpxImagePlugin: No module named 'olefile'
+2026-04-24 20:57:31  Importing FtexImagePlugin
+2026-04-24 20:57:31  Importing GbrImagePlugin
+2026-04-24 20:57:31  Importing GifImagePlugin
+2026-04-24 20:57:31  Importing GribStubImagePlugin
+2026-04-24 20:57:31  Importing Hdf5StubImagePlugin
+2026-04-24 20:57:31  Importing IcnsImagePlugin
+2026-04-24 20:57:31  Importing IcoImagePlugin
+2026-04-24 20:57:31  Importing ImImagePlugin
+2026-04-24 20:57:31  Importing ImtImagePlugin
+2026-04-24 20:57:31  Importing IptcImagePlugin
+2026-04-24 20:57:31  Importing JpegImagePlugin
+2026-04-24 20:57:31  Importing Jpeg2KImagePlugin
+2026-04-24 20:57:31  Importing McIdasImagePlugin
+2026-04-24 20:57:31  Importing MicImagePlugin
+2026-04-24 20:57:31  Image: failed to import MicImagePlugin: No module named 'olefile'
+2026-04-24 20:57:31  Importing MpegImagePlugin
+2026-04-24 20:57:31  Importing MpoImagePlugin
+2026-04-24 20:57:31  Importing MspImagePlugin
+2026-04-24 20:57:31  Importing PalmImagePlugin
+2026-04-24 20:57:31  Importing PcdImagePlugin
+2026-04-24 20:57:31  Importing PcxImagePlugin
+2026-04-24 20:57:31  Importing PdfImagePlugin
+2026-04-24 20:57:31  Importing PixarImagePlugin
+2026-04-24 20:57:31  Importing PngImagePlugin
+2026-04-24 20:57:31  Importing PpmImagePlugin
+2026-04-24 20:57:31  Importing PsdImagePlugin
+2026-04-24 20:57:31  Importing QoiImagePlugin
+2026-04-24 20:57:31  Importing SgiImagePlugin
+2026-04-24 20:57:31  Importing SpiderImagePlugin
+2026-04-24 20:57:31  Importing SunImagePlugin
+2026-04-24 20:57:31  Importing TgaImagePlugin
+2026-04-24 20:57:31  Importing TiffImagePlugin
+2026-04-24 20:57:31  Importing WebPImagePlugin
+2026-04-24 20:57:31  Importing WmfImagePlugin
+2026-04-24 20:57:31  Importing XbmImagePlugin
+2026-04-24 20:57:31  Importing XpmImagePlugin
+2026-04-24 20:57:31  Importing XVThumbImagePlugin
+2026-04-24 21:37:31  Timer fired - checking schedule...
+2026-04-24 21:37:31  Timer reset to 40 min
+2026-04-24 21:37:31  Schedule OK - calling fire_cb
+2026-04-24 21:37:32  Queue message: SHOW
+2026-04-24 21:37:32  Launching popup process...
+2026-04-24 21:37:45  Popup closed with code 0
+2026-04-24 21:37:45  Timer reset to 40 min
+2026-04-24 21:37:45  Done - timer reset to full interval
