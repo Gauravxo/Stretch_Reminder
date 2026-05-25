@@ -30,5 +30,6 @@
     "Rise and Stretch!",
     "Break Time! Loosen those muscles.",
     "Your chair misses you - get up!"
-  ]
+  ],
+  "exercise_duration_minutes": 5
 }

@@ -38,7 +38,7 @@ DEFAULT = {
     "display_mode": "fullscreen",
     "auto_dismiss_seconds": 0,
     "work_hours": {
-        "enabled": False,          # OFF by default — fires any time
+        "enabled": False,          
         "start": "09:00",
         "end":   "18:30",
         "days":  [0,1,2,3,4]
@@ -119,7 +119,7 @@ class Timer:
                 due = time.monotonic() >= self._next
             if due:
                 log.info("Timer fired - checking schedule...")
-                self.reset()                        # reset first
+                self.reset()                        
                 if self._ok_to_fire():
                     log.info("Schedule OK - calling fire_cb")
                     self.fire_cb()
@@ -158,10 +158,10 @@ class App:
         self.cfg    = Config()
         self._q     = queue.Queue()
         self._timer = Timer(self.cfg, lambda: self._q.put("SHOW"))
-        self._popup = None      # currently running Popen for popup
+        self._popup = None      
         self._tray  = None
 
-        # Hidden root - must NOT be withdrawn (breaks Toplevel on Windows)
+        
         self.root = tk.Tk()
         self.root.geometry("1x1+-32000+-32000")
         self.root.overrideredirect(True)
@@ -170,11 +170,11 @@ class App:
         self._timer.start()
         if TRAY_OK:
             self._setup_tray()
-        self._poll()            # start the main-thread event loop
+        self._poll()            
 
-    # ── Poll queue every 1 second ─────────────────────────────
+    
     def _poll(self):
-        # Process all queued events
+     
         try:
             while True:
                 msg = self._q.get_nowait()
@@ -189,7 +189,7 @@ class App:
         except queue.Empty:
             pass
 
-        # Update tray countdown
+        
         m, s = self._timer.get_remaining()
         tip = f"Stretch Reminder  |  Next in {m:02d}:{s:02d}"
         if self._tray:
@@ -200,23 +200,23 @@ class App:
 
         self.root.after(1000, self._poll)
 
-    # ── Show popup as a SEPARATE PROCESS (100% reliable) ──────
+    
     def _show_popup(self):
-        # Kill old popup if still open
+       
         if self._popup and self._popup.poll() is None:
             log.info("Popup already open, bringing to front")
             return
 
         log.info("Launching popup process...")
         try:
-            # Pass config as JSON arg so popup knows snooze_minutes etc.
+            
             cfg_json = json.dumps(self.cfg.data)
             self._popup = subprocess.Popen(
                 [sys.executable, str(POPUP_F), cfg_json],
                 creationflags=subprocess.CREATE_NO_WINDOW
                 if sys.platform == "win32" else 0
             )
-            # Watch for result in background thread
+            
             threading.Thread(target=self._watch_popup, daemon=True).start()
         except Exception as e:
             log.error(f"Failed to launch popup: {e}")
@@ -226,12 +226,12 @@ class App:
         code = self._popup.wait()
         log.info(f"Popup closed with code {code}")
         if code == 1:
-            # Snooze
+            
             m = self.cfg["snooze_minutes"]
             self._timer.reset(m)
             log.info(f"Snoozed for {m} min")
         else:
-            # Done (code 0) or force-closed
+            
             self._timer.reset()
             log.info("Done - timer reset to full interval")
 
@@ -257,7 +257,7 @@ class App:
         )
         img = Image.new("RGBA", (64,64), (0,0,0,0))
         d   = ImageDraw.Draw(img)
-        d.ellipse([2,2,62,62], fill="#1f6feb")
+        d.ellipse([2,2,62,62], fill="#f90000")
         d.ellipse([24,10,40,26], fill="white")
         d.line([(32,26),(32,44)], fill="white", width=3)
         d.line([(32,34),(18,46)], fill="white", width=3)
@@ -296,7 +296,7 @@ def _build_settings(win, cfg: Config, on_save_cb):
 
     hdr = tk.Frame(win, bg=SF, pady=12)
     hdr.pack(fill="x")
-    tk.Label(hdr, text="Settings-Gauravxo-Github", font=("Segoe UI",18,"bold"), bg=SF, fg=AC).pack()
+    tk.Label(hdr, text="#Follow me on GitHub @Gauravxo", font=("Segoe UI",18,"bold"), bg=SF, fg=AC).pack()
     tk.Label(hdr, text="Click Save to apply changes", font=("Segoe UI",10), bg=SF, fg=SB).pack()
 
     body = tk.Frame(win, bg=BG)
