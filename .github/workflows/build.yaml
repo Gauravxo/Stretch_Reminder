@@ -14,12 +14,8 @@ permissions:
   contents: read
 
 jobs:
-  test-and-build:
+  build:
     runs-on: windows-latest
-
-    strategy:
-      matrix:
-        python-version: ["3.11", "3.12"]
 
     steps:
       - name: Checkout Repository
@@ -28,43 +24,49 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: ${{ matrix.python-version }}
+          python-version: "3.12"
 
-      - name: Display Python Version
-        run: python --version
+      - name: Show Repository Files
+        shell: powershell
+        run: |
+          Write-Host "Repository Contents:"
+          Get-ChildItem -Recurse
 
       - name: Upgrade Pip
         run: |
           python -m pip install --upgrade pip
 
-      - name: Install Dependencies
+      - name: Install Build Dependencies
         run: |
-          if (Test-Path requirements.txt) {
-            pip install -r requirements.txt
-          } else {
-            pip install pyinstaller flake8
+          pip install pyinstaller
+
+      - name: Verify Python Files
+        shell: powershell
+        run: |
+          Get-ChildItem -Recurse -Include *.py,*.pyw |
+          ForEach-Object {
+            python -m py_compile $_.FullName
           }
 
-      - name: Lint Source Code
-        run: |
-          flake8 . --count --statistics --max-line-length=120
-        continue-on-error: true
-
-      - name: Verify Python Syntax
-        run: |
-          python -m py_compile stretch_reminder.py
-
       - name: Build EXE
+        shell: powershell
         run: |
           pyinstaller `
+            --clean `
+            --noconfirm `
             --onefile `
             --windowed `
             --name StretchReminder `
-            stretch_reminder.py
+            stretch_reminder.pyw
+
+      - name: Show Build Output
+        shell: powershell
+        run: |
+          Get-ChildItem dist
 
       - name: Upload EXE Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: StretchReminder-${{ matrix.python-version }}
+          name: StretchReminder-Windows
           path: dist/StretchReminder.exe
           retention-days: 30
