@@ -1,0 +1,70 @@
+name: Build Stretch Reminder
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+  pull_request:
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-build:
+    runs-on: windows-latest
+
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Display Python Version
+        run: python --version
+
+      - name: Upgrade Pip
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Install Dependencies
+        run: |
+          if (Test-Path requirements.txt) {
+            pip install -r requirements.txt
+          } else {
+            pip install pyinstaller flake8
+          }
+
+      - name: Lint Source Code
+        run: |
+          flake8 . --count --statistics --max-line-length=120
+        continue-on-error: true
+
+      - name: Verify Python Syntax
+        run: |
+          python -m py_compile stretch_reminder.py
+
+      - name: Build EXE
+        run: |
+          pyinstaller `
+            --onefile `
+            --windowed `
+            --name StretchReminder `
+            stretch_reminder.py
+
+      - name: Upload EXE Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: StretchReminder-${{ matrix.python-version }}
+          path: dist/StretchReminder.exe
+          retention-days: 30
